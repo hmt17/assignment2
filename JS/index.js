@@ -35,14 +35,3 @@ function Submitted(){
 	}
 	return false;
 }
-function isOneChecked() {
-  var chx = document.getElementsByTagName('input');
-  for (var i=0; i<chx.length; i++) {
-    
-    if (chx[i].type == 'radio' && chx[i].checked) {
-      return true;
-    } 
-  }
-  // End of the loop, return false
-  return false;
-}

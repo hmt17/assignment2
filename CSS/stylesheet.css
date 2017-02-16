@@ -1,0 +1,17 @@
+body{
+	background-image: url('../Images/murica.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#GW{
+	visibility: hidden;
+}
+#AL{
+	visibility: hidden;
+}
+#TR{
+	visibility: hidden;
+}
+#DT{
+	visibility: hidden;
+}
